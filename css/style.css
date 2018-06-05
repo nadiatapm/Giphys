@@ -2,35 +2,39 @@ body {
     background-color: #fff87f;
 }
 .container {
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     background-color: #65737e;
-    padding: 4%;
+    padding: 1em;
 }
 .container img {
-    max-width: 250px;
-    padding: 4px;
+    max-width: 300px;
+    padding: 2em;
 }
 #elementos {
-    padding: 2%;
+    padding: 2em;
 }
 #elementos .elementos {
-    margin: 10px;
+    margin: 2em;
     border: 2px solid #c0c5ce;
     display: block;
-    padding: 10px;
+    padding: 2em;
     text-align: left;
     position: relative;
-    margin: 2%;
+    margin: 1em;
 }
 #elementos .elementos a {
     font-family: 'Raleway', sans-serif;
     display: inline-block;
-    padding: 20px;
+    padding: 2em;
     position: absolute;
-    top: 30%;
+    top: 2em;
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em;
+}
+Button:hover {
+    background-color: #fff87f;
+    color: #65737e;
 }
